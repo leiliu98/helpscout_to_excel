@@ -5,6 +5,8 @@ const createCsvWriter = require('csv-writer').createObjectCsvWriter;
 const Bottleneck = require('bottleneck');
 
 // Set up the Help Scout API credentials and URLs
+const clientID = 'XXXXXXXX';  // Replace with your actual Client ID
+const clientSecret = 'XXXXXXX';  // Replace with your actual Client Secret
 const tokenURL = 'https://api.helpscout.net/v2/oauth2/token';
 const BASE_URL = "https://api.helpscout.net/v2";
 const CONVERSATIONS_FILE = path.join(__dirname, "conversations_ids.txt");
