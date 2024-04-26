@@ -60,6 +60,8 @@ async function getAccessToken() {
     }
 }
 
+const clientID = 'XXXXXXXX';  // Replace with your actual Client ID
+const clientSecret = 'XXXXXXX';  // Replace with your actual Client Secret
 const BASE_URL = "https://api.helpscout.net/v2";
 const CSV_FILE = "conversations.csv";
 const CONVERSATION_IDS_FILE = "conversations_ids.txt";
